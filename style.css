@@ -1,0 +1,65 @@
+/*page */
+body {
+  background-color:#e8dfd6; /* softer beige */
+    color: #2c2c2c; /* strong, readable text */
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto; /* center content */
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #4a3428; /* deep warm brown*/
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 { 
+     color: #6a4e40; /*softer brown */
+     margin-top: 30px;
+}
+
+/* Intro text (first paragraph) */
+body > p:first-of-type {
+    text-align: center;
+    color: #555; /* softer than main text */
+}
+ 
+/* Paragraphs */
+p{
+     line-height: 1.6; 
+}
+
+/* Section spacing */
+h2 + p {
+    margin-top: 10px;
+}
+
+/* List (learning section) */
+ul {
+    background-color: #f7f5f2; /* softoff-white */
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Button */
+button {
+    background-color: #7fa6a0; /* slightly deeper so it stands out */
+    color: #2c2c2c;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* Button hover */
+button:hover {
+    background-color: #6e948f; /* deeper on hover */
+}
